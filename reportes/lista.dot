@@ -1,0 +1,13 @@
+digraph G {
+label="Lista Pasajeros";
+node [shape=record];
+n0[label="P12345678\nJohn Doe\nA100-12"];
+n0 -> n1 [dir=both];
+n1[label="P98765432\nJane Smith\nA200-5"];
+n1 -> n2 [dir=both];
+n2[label="P34567890\nAhmed Al-Farsi\nA789-1"];
+n2 -> n3 [dir=both];
+n3[label="P23456789\nLiu Wei\nA789-8"];
+n3 -> n4 [dir=both];
+n4[label="P45678901\nCarlos Rodríguez\nA900-23"];
+}

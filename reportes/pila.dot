@@ -1,0 +1,11 @@
+digraph G {
+label="Pila Equipaje";
+node [shape=record];
+n0[label="P34567890\n3"];
+n0 -> n1;
+n1[label="P23456789\n1"];
+n1 -> n2;
+n2[label="P98765432\n1"];
+n2 -> n3;
+n3[label="P12345678\n2"];
+}
