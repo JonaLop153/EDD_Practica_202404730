@@ -1,5 +1,0 @@
-digraph G {
-label="Cola Pasajeros";
-node [shape=record];
-empty[label="Cola vacía"];
-}

@@ -1,8 +1,0 @@
-digraph G {
-label="Aviones Disponibles";
-node [shape=record];
-n0[label="N54321\nA102"];
-n1[label="N67890\nA104"];
-n0 -> n1 [dir=both];
-n1 -> n0 [dir=both];
-}
